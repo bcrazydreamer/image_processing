@@ -70,10 +70,10 @@ def simulate_image(image,width):
 '''
 Process image or start of image processing
 '''
-def process_image(image_filepath,width):
+def process_image(image_array,width):
     image = None
     try:
-        image = Image.fromarray(image_filepath)
+        image = Image.fromarray(image_array)
         image = scale_image(image,width)
     except Exception as e:
         print(e)
