@@ -1,7 +1,7 @@
 import sys
 from PIL import Image
 
-pixel_symbol = "█"
+pixel_symbol = "██"
 
 '''
 Used to scale image size
