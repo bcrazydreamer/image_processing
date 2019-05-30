@@ -1,3 +1,7 @@
+'''
+Language: Python3
+'''
+
 import sys
 from PIL import Image
 
